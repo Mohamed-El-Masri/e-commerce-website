@@ -1,0 +1,99 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.login-form .logo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-form .logo img {
+    height: 80px;
+    margin: auto;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: var(--primary);
+}
+
+.login-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-form .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(194, 70, 4);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+}
+
+.login-form .btn:hover {
+    background-color: rgb(194, 70, 4);
+}
+
+.login-form .forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 300ms ease;
+}
+
+.login-form .forgot-password:hover {
+    color: rgb(194, 70, 4);
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.login-form .register-link {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 300ms ease;
+}
+
+.login-form .register-link:hover {
+    color: rgb(194, 70, 4);
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.error-div {
+    color: red;
+}

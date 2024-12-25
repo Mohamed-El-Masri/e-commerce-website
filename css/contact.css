@@ -1,0 +1,122 @@
+/* Styling for the contact container */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px 1rem;
+    background-color:  #f0f2f5; 
+}
+
+/* Styling for the contact info */
+.contact-info {
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: var(--color-background-light);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px var(--color-card-shadow); 
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+    color: var(--color-primary);
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+    color: var(--color-text-light); 
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+    color: var(--color-text); 
+    display: flex;
+    align-items: center;
+}
+
+.contact-info ul li i {
+    margin-right: 10px;
+    color: var(--color-primary);
+    font-size: 1.2em;
+}
+
+/* Styling for the contact form */
+.contact-form {
+    background-color: var(--color-background-light); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px var(--color-card-shadow); 
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Styling for the form header */
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: var(--color-primary); 
+}
+
+/* Styling for form groups */
+.contact-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Styling for labels */
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--color-text);
+}
+
+/* Styling for input fields and textarea */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-border); 
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Styling for the submit button */
+.contact-form .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-primary); 
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+}
+
+.contact-form .btn:hover {
+    background-color: var(--color-primary-hover); 
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+    .contact-container {
+        flex-direction: row;
+    }
+
+    .contact-info {
+        max-width: 400px;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .contact-form {
+        max-width: 600px;
+    }
+}
