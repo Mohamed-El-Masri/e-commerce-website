@@ -11,7 +11,7 @@ document.querySelector("header").innerHTML = ` <div class="header_top">
                 </div>
                 <ul>
                     <li><a class="active" href="home.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="Shop.html">Shop</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
