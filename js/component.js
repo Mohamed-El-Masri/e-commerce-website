@@ -10,7 +10,7 @@ document.querySelector("header").innerHTML = ` <div class="header_top">
                     <a href="home.html"><img src="../images/logo.png" alt="logo"></a>
                 </div>
                 <ul>
-                    <li><a class="active" href="home.html">Home</a></li>
+                    <li><a href="home.html">Home</a></li>
                     <li><a href="Shop.html">Shop</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
